@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-	<title>Harrison Lin</title>
 	<meta charset="UTF-8">
+        <title>@yield('title')</title>
 
 	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -16,27 +16,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<!-- Custom css -->
 	<link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css">
-
-	<style>
-
-	    .main-container {
-                text-align: center;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-	    .title {
-                font-size: 96px;
-	    }
-
-	    .title.sub {
-	    	font-size: 48px;
-	    }
-	</style>
 
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
@@ -54,19 +33,23 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-		<li><a href="#">About </a></li>
+		<li><a href="/about">About </a></li>
 		<li><a href="/links">Links </a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	
     </head>
     <body>
-        <div class="main-container text-center">
-            <div class="content">
-		<div class="title">Welcome</div>
-		<div class="title sub">Harrison's Cat 125 portfolio</div>
-            </div>
-        </div>
+	    @yield('body')
     </body>
+
+    <footer class="footer">
+	<script type="text/javascript" src="{{ asset('/js/custom.js') }}"></script>
+
+	<div class="footer-container">
+		<p class="text-muted">&copy; Copyright 2015 Harrison Lin</p>
+	</div>
+    </footer>
 </html>

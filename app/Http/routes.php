@@ -14,3 +14,5 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('links', 'LinksController@index');
+
+Route::get('about', 'AboutController@index');
