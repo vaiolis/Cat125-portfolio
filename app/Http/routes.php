@@ -16,3 +16,13 @@ Route::get('/', 'WelcomeController@index');
 Route::get('links', 'LinksController@index');
 
 Route::get('about', 'AboutController@index');
+
+Route::get('articles', 'ArticlesController@index');
+
+Route::get('article-one', 'ArticlesController@getArticleOne');
+
+Route::get('article-two', 'ArticlesController@getArticleTwo');
+
+Route::get('article-three', 'ArticlesController@getArticleThree');
+
+Route::get('article-four', 'ArticlesController@getArticleFour');

@@ -1,0 +1,26 @@
+.top-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.top-container h1 {
+    font-size: 4em;
+}
+
+.links-button {
+	margin-top: 15px;
+    border: solid 2px #fff;
+	font-size: 20px;
+	background: #18bc9c;
+	color: white;
+	transition: all .3s ease-in-out;
+}
+
+.links-button:hover,
+.links-button:focus,
+.links-button:active,
+.links-button.active {
+	background: white;
+	color: black;
+	border: solid 2px black;
+}
