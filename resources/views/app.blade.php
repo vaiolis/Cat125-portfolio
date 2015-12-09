@@ -96,7 +96,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						Copyright &copy; Your Website 2014
+						Copyright &copy; Harrison Lin 2015
 					</div>
 				</div>
 			</div>

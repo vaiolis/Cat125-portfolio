@@ -128,7 +128,7 @@
                     </a>
                 </div>
                 <div class="col-sm-3 portfolio-item">
-                    <a href="article-four" class="portfolio-link" data-toggle="modal">
+                    <a href="/article-four" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 Which CMS Should I Use?
