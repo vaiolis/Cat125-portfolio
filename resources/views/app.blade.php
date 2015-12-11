@@ -56,10 +56,10 @@
                         <a href="/"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/articles">Articles</a>
+                        <a href="/about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/about">About Me</a>
+                        <a href="/articles">Articles</a>
                     </li>
                     <li class="page-scroll">
                         <a href="/links">Links</a>
@@ -86,6 +86,9 @@
 							</li>
 							<li>
 								<a href="https://www.linkedin.com/in/harrison-lin-84a64999" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/vaiolis" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
 							</li>
 						</ul>
 					</div>

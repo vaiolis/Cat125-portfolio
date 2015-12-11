@@ -55,11 +55,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Articles</a>
+					<li class="page-scroll">
+                        <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About Me</a>
+                        <a href="#portfolio">Articles</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#links">Links</a>
@@ -72,7 +72,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header class="profile-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -85,15 +85,37 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> 
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>I'm a developer with a passion for learning. While I don't develop solely for web, my work as a web developer has introduced me to technologies that challenge my existing skills and past experiences. Every project I work on gives me more insight into what's possible for my hands to create.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="/about" class="btn btn-lg links-button">
+                        Find Out More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section class="success" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Articles</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -111,7 +133,7 @@
                     <a href="/article-two" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                Why Develop for PHP?
+                                Impressions of Laravel PHP
                             </div>
                         </div>
                         <img src="img/portfolio/ruby-or-php.png" class="img-responsive" alt="">
@@ -131,32 +153,10 @@
                     <a href="/article-four" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                Which CMS Should I Use?
+                                Picking the Right CMS
                             </div>
                         </div>
                         <img src="img/portfolio/wordpress.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>I'm a developer with a passion for learning. While I don't develop solely for web, my work as a web developmer has introduced me to technologies that challenge my existing skills and past experiences. Every project I work on gives me more insight into what's possible for my hands to create.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="/about" class="btn btn-lg btn-outline">
-                        Find Out More
                     </a>
                 </div>
             </div>
@@ -199,6 +199,9 @@
                             <li>
                                 <a href="https://www.linkedin.com/in/harrison-lin-84a64999" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
+							<li>
+								<a href="https://github.com/vaiolis" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+							</li>
                         </ul>
                     </div>
                 </div>
